@@ -1,9 +1,8 @@
-# React + Vite
+# Sources
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Expert-lab-portfolio-Tuur-Van-Bergen
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.w3schools.com/howto/howto_js_sidenav.asp
+https://legacy.reactjs.org/docs/hooks-state.html
+Cursus Frontend
+Cursus Studio Hyperdrive
+OpenAI's ChatGPT, heeft bijgedragen aan het verbeteren van de code, het oplossen van fouten en het optimaliseren van de functionaliteit.
