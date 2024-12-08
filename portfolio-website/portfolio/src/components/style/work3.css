@@ -1,0 +1,225 @@
+.wrapper {
+	width: 90vw;
+	margin-left: 10vw;
+	margin-top: 7.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.hero-img video {
+	width: 100%;
+}
+.hero-img {
+	width: 100%;
+}
+.img1 {
+	width: 49%;
+	margin-top: 1.5%;
+	margin-right: 0.5%;
+}
+.img2 {
+	width: 49%;
+
+	margin-top: 1.5%;
+}
+.img1 img {
+	width: 100%;
+}
+.img2 img {
+	width: 100%;
+}
+.about-title {
+	top: 150px;
+	left: 4%;
+	font-size: 90px;
+	position: absolute;
+	background-color: #f9f9f9;
+	padding: 5px 5px 10px 5px;
+}
+.about-text-1 {
+	top: 750px;
+	left: 55%;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 37%;
+	padding: 5px 10px 10px 10px;
+}
+.about-text-2 {
+	top: 1450px;
+	left: 15%;
+	width: 60%;
+	position: absolute;
+	background-color: #f9f9f9;
+	padding: 5px 10px 10px 10px;
+}
+.about-text-3 {
+	top: 2450px;
+	left: 60%;
+	width: 35%;
+	position: absolute;
+	background-color: #f9f9f9;
+	padding: 5px 10px 10px 10px;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+@media screen and (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.container {
+		display: none;
+	}
+	.mobile {
+		margin-left: 5vw;
+		width: 90vw;
+		margin-right: 5vw;
+	}
+	.mobile {
+		margin-top: 35%;
+	}
+	.mobile-hero-title p {
+		margin-bottom: 0;
+		font-size: 30px;
+	}
+	.mobile-tags p {
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	.mobile-about-title p {
+		font-size: 30px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.mobile-bottom-nav {
+		display: flex;
+		width: 100%;
+		border-top: black solid 1px;
+		font-size: 18px;
+		margin-top: 42%;
+	}
+	.nav-previous {
+		flex: 1;
+		border-right: black solid 1px;
+		padding-bottom: 50px;
+		padding-top: 5px;
+		margin-left: 5px;
+	}
+	.nav-next {
+		margin-left: 5px;
+		padding-top: 5px;
+		flex: 1;
+	}
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 600px; /* Stel een vaste breedte in */
+		height: 400px; /* Stel een vaste hoogte in */
+		margin: 0 auto;
+		position: relative;
+		background-color: #fff;
+		overflow: hidden; /* Verberg alles buiten de container */
+	}
+
+	/* Full-width images */
+	.mySlides {
+		display: none; /* Verberg standaard alle slides */
+		width: 100%;
+		height: 100%; /* Vul de volledige hoogte van de container */
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.mySlides img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Vul de container en snijd indien nodig bij */
+	}
+
+	/* Navigation buttons */
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding: 10px;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		background: rgba(255, 255, 255, 0.8);
+		border: 1px solid black;
+		z-index: 1000;
+	}
+
+	.prev {
+		left: 10px;
+	}
+
+	.next {
+		right: 10px;
+	}
+
+	/* Dots/circles */
+	.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 5px;
+		background-color: #000;
+		border-radius: 50%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.dot.active {
+		background-color: #5a5959;
+	}
+	a {
+		width: 2.5%;
+	}
+	.modal {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0, 0, 0, 0.8); /* Donkere achtergrond */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s, opacity 0.2s ease-in-out;
+	}
+
+	.modal.active {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.modal img {
+		max-width: 90%;
+		max-height: 90%;
+		object-fit: contain;
+		border: 5px solid #fff; /* Witte rand */
+	}
+
+	.modal-close {
+		cursor: pointer;
+		position: absolute;
+		top: 35px;
+		right: 20px;
+		padding: 10px;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		background: rgba(255, 255, 255, 0.8); /* Zelfde stijl als de knoppen */
+		border: 2px solid black;
+		transform: translateY(-50%);
+		z-index: 1000;
+	}
+}

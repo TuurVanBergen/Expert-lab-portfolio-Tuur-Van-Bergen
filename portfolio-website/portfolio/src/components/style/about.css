@@ -1,0 +1,93 @@
+/* body {
+	background-image: url(../../assets//images/000009.JPG);
+	background-size: cover;
+	border: 1px solid red !important;
+	border-radius: 50%;
+} */
+
+/* styling voor de hero text */
+.hero-text {
+	margin-left: 4.5%;
+	margin-top: 6%;
+	margin-right: 7%;
+}
+.hero-text p {
+	font-size: 24px;
+}
+
+/* styling voor de extra informatie, .information is de container daarin zitten .info-1 en .info-2 */
+.information {
+	margin-left: 4.5%;
+	margin-top: 31%;
+	width: 86.5%;
+	display: flex;
+	justify-content: space-between;
+}
+.info-1 {
+	width: 50%;
+	margin-right: 28px;
+}
+.info-2 {
+	z-index: 999;
+	width: 50%;
+}
+.info-1 .info-2 p {
+	margin-top: 0;
+}
+
+/* styling voor de images op het scherm */
+.image-1 {
+	width: 215px;
+}
+
+.image-2 {
+	width: 215px;
+}
+
+/* de afbeelding moet ondersteboven staan, dus heb ik deze met rotate gedraaird */
+.image-3 {
+	transform: rotate(183deg);
+	width: 350px;
+}
+
+.image-4 {
+	width: 150px;
+}
+
+.image-5 {
+	width: 170px;
+}
+@media screen and (max-width: 767px) {
+	.mobile-aboutPage-container {
+		margin-left: 5vw;
+		width: 90vw;
+		margin-right: 5vw;
+		margin-top: 35%;
+	}
+	.mobile-aboutPage-hero-title p {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.mobile-aboutPage-Text p {
+		font-size: 20px;
+	}
+	.mobile-aboutPage-title p {
+		font-size: 30px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.mobile-aboutPage-hero-img img {
+		width: 50%;
+		border-radius: 80%;
+		border: 3px solid black !important;
+		box-shadow: 5px 5px 5px rgb(190, 189, 189);
+	}
+	.mobile-aboutPage-hero-img {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 767px) {
+	.mobile-aboutPage-container {
+		display: none;
+	}
+}
